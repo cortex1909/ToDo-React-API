@@ -19,6 +19,7 @@ export default class TodoItem extends Component {
           <input
             type="checkbox"
             onChange={this.props.markComplete.bind(this, id)}
+            defaultChecked={this.props.todo.completed}
           />{' '}
           {title}
           <button
