@@ -5,11 +5,11 @@ export default function Header() {
   return (
     <header style={headerStyle}>
       <h1>ToDo Header</h1>
-      <Link style={linkStyle} to="/">
+      <Link style={linkStyle} to="ToDo-React-API/">
         Home
       </Link>{' '}
       |{' '}
-      <Link style={linkStyle} to="/about">
+      <Link style={linkStyle} to="ToDo-React-API/about">
         About
       </Link>
     </header>

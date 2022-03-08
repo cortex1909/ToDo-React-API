@@ -57,7 +57,7 @@ export default class App extends Component {
             <Routes>
               <Route
                 exact
-                path="/"
+                path="ToDo-React-API/"
                 element={
                   <React.Fragment>
                     <AddTodo addTodo={this.addTodo} />
@@ -69,7 +69,7 @@ export default class App extends Component {
                   </React.Fragment>
                 }
               ></Route>
-              <Route path="/about" element={About()} />
+              <Route path="ToDo-React-API/about" element={About()} />
             </Routes>
           </div>
         </div>
